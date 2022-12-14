@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+@font-face {
+    font-family: Loki Cola;
+    src: url(LOKICOLA.TTF);
+}
+
+body {
+    margin: 0px;
+    background-image: url(fundo.png);
+    background-attachment: fixed;
+    background-size: "max-width" 100%;
+    font-family: Arial;
+    /* background-color: rgba(0, 0, 0, 0.863); */
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(23, 2, 2), #8b0202);
+}
+
+.logosite {
+    height: 80px;
+    width: 230px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: rgba(255, 255, 0, 0);
+}
+
+.blocoa {
+    display: flex;
+    background-image: linear-gradient(70deg, rgb(91, 16, 161, 0.600), rgba(238, 130, 238, 0.600));
+    /* background-color: rgb(255, 255, 255); */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.blocob {
+    /* background-color: rgb(0, 0, 255); */
+    padding: 10px;
+    margin: 10px;
+    height: 90%;
+    width: 70%;
+}
+
+.byteimg {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.botao {
+    background-image: linear-gradient(35deg, #14002C, #BD20C3);
+    color: rgb(226, 217, 217);
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.fontespecial {
+    font-family: Minecraft;
+    font-size: 55px;
+    font-style: italic;
+    color: #1BED9D;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.fotos img {
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+}
+
+.fotos img:hover {
+    transform: scale(1.35);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(225, 224, 224);
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #9A1BAE, #080029);
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.coca {
+    color: #c21621;
+    font-family: Loki Cola;
+    font-size: 60px;
+}
